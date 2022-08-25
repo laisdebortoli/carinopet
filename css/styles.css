@@ -1,34 +1,48 @@
 * {
-    box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;  
+  box-sizing: border-box;
+  }
+
+  body {
+    height:max-content;
   }
 
 .row-content {
-    padding: 50px 0;
+    padding: 20px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
 
 .jumbotron {
   background-color: rgb(148, 198, 237);
-  padding: 1px;
+  padding: 10px 0px;
+  margin: 0;
 }
 
 
-h2 {
+h1 {
   font-family: 'Love Ya Like A Sister', cursive;
 }
 
-p, a {
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+p, a, li {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color: black;
 }
 
-header p {
+.copyright {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 200;
+  font-size: .8em;
 }
-h5 {
+
+header p {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
@@ -38,12 +52,11 @@ footer {
   padding: 20px 0;
 }
 
-nav {
-  background-color: rgb(255, 213, 2);
-  
-}
-
 form {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
+}
+
+nav {
+  background-color: rgb(148, 198, 237);
 }
